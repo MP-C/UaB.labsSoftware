@@ -21,6 +21,15 @@ namespace DonativosJASON
             view.ApresentarFormulario();
         }
 
+        public void PreencherFormulario()
+        {
+            //Nome, NIB, Morada, ID, Donativo, Valor, Kilos, Mensagem, Anonimato, 
+
+        public string Nome;
+
+
+        }
+
 
     }
 }
