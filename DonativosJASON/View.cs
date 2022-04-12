@@ -23,12 +23,42 @@ namespace DonativosJASON
 
         public void ApresentarBoasVindas()
         {
-            Console.WriteLine("Bem-vindo ao Programa de Donativos internacional");
+            {
+                string resposta;
+                Console.WriteLine("Bem Vindo!!!"); // Podemos melhorar todas as mensagens ao utilizador, isto foi feito a pressa apenas para testar a funcionalidade!!!
+                Console.WriteLine("");
+                Console.WriteLine("Deseja fazer um donativo? (s/n)");
+                resposta = (Console.ReadLine());
+
+                while (resposta != "s" && resposta != "n")
+                {
+                    Console.WriteLine("Resposta inválida!!!");
+                    Console.WriteLine("");
+                    Console.WriteLine("Deseja fazer um donativo? (s/n)");
+                    resposta = (Console.ReadLine());
+                }
+
+                if (resposta == "s")
+                {
+                    Console.WriteLine("O formulário será apresentado!!!");
+                    /*
+                      
+                     Chamar função ApresentarFormulario!!! 
+                     
+                    */
+                }
+                else
+                {
+                    Console.WriteLine("Obrigado, e volte sempre!!!");
+                }
+
+                Console.ReadLine();
+            }
         }
 
         public void ApresentarFormulario()
         {
-            Console.WriteLine("Apresentar FóRMULaRIO em VIEW");
+            Console.WriteLine("Apresentar FóRMULaRIO em VIEW - Goncalo");
         }
 
 
