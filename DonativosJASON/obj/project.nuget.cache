@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "b0XppCq45ybU2hhS+wYd0JbDn01EED1mJLd+FnS8RvBgLpsiw18jUzmPoDSgam0jX42ZPROZyvBFcA3mt23aow==",
+  "dgSpecHash": "y6me8Bb3EbragY+JitXzaTDHWYPDPElKZomCRIathJFQzdNJfJ8tvRNDdo0GQi98NIWAniCPh/GeoK+2nAcGbA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\capelam\\Documents\\MPC\\EngInformatica\\UaB\\2Ano\\2.Semestre\\c2.2.LabSDesenvolvimentoSoftware21179\\EFolioA\\UaB.labsSoftware\\DonativosJASON\\DonativosJASON.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\jonid\\Source\\Repos\\MP-C\\UaB.labsSoftware\\DonativosJASON\\DonativosJASON.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jonid\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512",
+    "C:\\Users\\jonid\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\jonid\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\jonid\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
