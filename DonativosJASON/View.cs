@@ -9,6 +9,7 @@ namespace DonativosJASON
     class View
     {
         // Teste joni
+
         private Controller controller; //variaveis da class que apenas se podem usar aqui
         private Model model; //variaveis da class
 
