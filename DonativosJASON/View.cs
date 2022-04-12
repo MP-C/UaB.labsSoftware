@@ -43,7 +43,8 @@ namespace DonativosJASON
                     Console.WriteLine("O formulário será apresentado!!!");
                     /*
                       
-                     Chamar função ApresentarFormulario!!! 
+
+                    Chamar função ApresentarFormulario!!! 
                      
                     */
                 }
@@ -52,13 +53,24 @@ namespace DonativosJASON
                     Console.WriteLine("Obrigado, e volte sempre!!!");
                 }
 
-                Console.ReadLine();
             }
         }
 
+        public void SolitarNome()
+        {
+            Console.WriteLine("Nome:");
+
+        }
         public void ApresentarFormulario()
         {
-            Console.WriteLine("Apresentar FóRMULaRIO em VIEW - Goncalo");
+            Console.WriteLine("Apresentar FoRMULaRIO em VIEW");
+
+        }
+
+        public void SolicitarTotaisAtualizados()
+        {
+            Console.WriteLine("O seu donativo " + model.Totais()); 
+          
         }
 
 

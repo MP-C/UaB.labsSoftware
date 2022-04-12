@@ -10,26 +10,33 @@ namespace DonativosJASON
     {
         View view;
         Model model;
-
+        String nome;
+        
         public void IniciarPrograma()
         {
             model = new Model(this, view);
             view = new View(this, model);
 
             view.ApresentarBoasVindas();
+            PreencherFormulario();
+            view.SolicitarTotaisAtualizados();
 
-            view.ApresentarFormulario();
         }
 
         public void PreencherFormulario()
         {
-            //Nome, NIB, Morada, ID, Donativo, Valor, Kilos, Mensagem, Anonimato, 
-
-        public string Nome;
-
-
+            //Nome, NIB, Morada, ID, Donativo, Valor, Kilos, Mensagem, Anonimato.
+            view.SolitarNome();
+            nome = Console.ReadLine();
+            //Continuar a pedir os dados do Formulário
+            model.ProcessarDonativo(nome);
         }
 
+        public void DonativoPronto()
+        {
+            Console.WriteLine("Processado com sucesso"); // Verificar se é preciso criar um estado
+        }
+        
 
     }
 }
