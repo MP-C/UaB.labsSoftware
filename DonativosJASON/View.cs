@@ -22,6 +22,30 @@ namespace DonativosJASON
 
 
         public void ApresentarBoasVindas()
+            /*  [J]
+             *  Esta função devia ter só texto e no controller é que se fazia o input,
+             *  algo por exemplo:
+             *  -- (no controller) --
+             *  view.ApresentarBoasVindas();
+             *  Resposta();
+             *  LoopResposta();
+             *  PreencherFormulario();  
+             *  .
+             *  .
+             *  .
+             *  public void Resposta()
+             *  { 
+             *      resposta=(console.ReadLine() );
+             *  }
+             *  public void LoopResposta()
+             *  {
+             *      while (resposta!= "s" || resposta!= "n" || resposta!= "N" || resposta!= "S")
+             *      {
+             *          view.RespostaInvalida();
+             *          Resposta();
+             *      }
+             *  } 
+             */
         {
             {
                 string resposta;
@@ -29,6 +53,7 @@ namespace DonativosJASON
                 Console.WriteLine("");
                 Console.WriteLine("Deseja fazer um donativo? (s/n)");
                 resposta = (Console.ReadLine());
+
 
                 while (resposta != "s" && resposta != "n")
                 {
@@ -73,6 +98,11 @@ namespace DonativosJASON
           
         }
 
-
+        /*[J]
+        *public void ApresentarBotaoAguarde()
+        *{
+        *    Console.WriteLine("Aguarde");
+        *}
+        */
     }
 }
