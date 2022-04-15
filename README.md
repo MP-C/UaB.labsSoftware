@@ -6,4 +6,9 @@ Registo de tarefas:
 @Gonçalo : ApresentarBoasVindas, ApresentarFormulario, ApresentarBotaoAguarde; mostar donativo; formulario
 @Joni Mensagem de boas vindas, Apresentar o formulario de dados, Aguarde, O seu donativo, DonativosTotais; solicitarTotaisAtualizados, AprensentarPagina; 
 
-teste push
+
+##MoveloMVC
+![ModeloMVC](https://github.com/MP-C/UaB.labsSoftware/blob/Develop/img/Modelo%20MVC.jpg)
+
+##Diagrama
+![Diagrama](https://github.com/MP-C/UaB.labsSoftware/blob/Develop/img/Diagrama.jpg)
