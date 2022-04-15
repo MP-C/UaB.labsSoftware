@@ -22,15 +22,87 @@ namespace DonativosJASON
 
 
         public void ApresentarBoasVindas()
+            /*  [J]
+             *  Esta função devia ter só texto e no controller é que se fazia o input,
+             *  algo por exemplo:
+             *  -- (no controller) --
+             *  view.ApresentarBoasVindas();
+             *  Resposta();
+             *  LoopResposta();
+             *  PreencherFormulario();  
+             *  .
+             *  .
+             *  .
+             *  public void Resposta()
+             *  { 
+             *      resposta=(console.ReadLine() );
+             *  }
+             *  public void LoopResposta()
+             *  {
+             *      while (resposta!= "s" || resposta!= "n" || resposta!= "N" || resposta!= "S")
+             *      {
+             *          view.RespostaInvalida();
+             *          Resposta();
+             *      }
+             *  } 
+             */
         {
-            Console.WriteLine("Bem-vindo ao Programa de Donativos internacional");
+            {
+                string resposta;
+                Console.WriteLine("Bem Vindo!!!"); // Podemos melhorar todas as mensagens ao utilizador, isto foi feito a pressa apenas para testar a funcionalidade!!!
+                Console.WriteLine("");
+                Console.WriteLine("Deseja fazer um donativo? (s/n)");
+                resposta = (Console.ReadLine());
+
+
+                while (resposta != "s" && resposta != "n")
+                {
+                    Console.WriteLine("Resposta inválida!!!");
+                    Console.WriteLine("");
+                    Console.WriteLine("Deseja fazer um donativo? (s/n)");
+                    resposta = (Console.ReadLine());
+                }
+
+                if (resposta == "s")
+                {
+                    Console.WriteLine("O formulário será apresentado!!!");
+                    /*
+                      
+
+                    Chamar função ApresentarFormulario!!! 
+                     
+                    */
+                }
+                else
+                {
+                    Console.WriteLine("Obrigado, e volte sempre!!!");
+                }
+
+            }
         }
 
+        public void SolitarNome()
+        {
+            Console.WriteLine("Nome:");
+
+        }
         public void ApresentarFormulario()
         {
-            Console.WriteLine("Apresentar FóRMULaRIO em VIEW");
+            Console.WriteLine("Apresentar FoRMULaRIO em VIEW");
+
         }
 
+        public void SolicitarTotaisAtualizados()
+        {
+            Console.WriteLine("O seu donativo " + model.Totais()); 
+          
+        }
 
+        /*[J]
+        *public void ApresentarBotaoAguarde()
+        *{
+        *    Console.WriteLine("Aguarde");
+        *}
+        */
     }
 }
