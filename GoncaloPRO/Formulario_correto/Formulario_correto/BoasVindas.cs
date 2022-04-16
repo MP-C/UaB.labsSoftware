@@ -22,5 +22,18 @@ namespace Formulario_correto
         {
             Application.Run(new Formulario());
         }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Tem a certeza que pretende fechar a aplicação?", "Fechar Aplicação", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                MessageBox.Show("A aplicação foi fechada com sucesso.", "Aplicação Encerrada!", MessageBoxButtons.OK);
+                System.Windows.Forms.Application.Exit();
+            }
+            else
+            {
+                this.Activate();
+            }
+        }
     }
 }

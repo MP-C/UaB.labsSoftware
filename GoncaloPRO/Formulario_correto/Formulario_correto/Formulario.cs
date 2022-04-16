@@ -44,7 +44,17 @@ namespace Formulario_correto
 
             
             json.donativos.Add(donativo);
-         
+
+            //Confirmação aqui antes de acrescentar
+            if (MessageBox.Show("Pretende confirmar o donativo?", "Confirmação de Donativo", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                MessageBox.Show("O seu donativo no valor de "+ donativo.Valor +" euros foi efetuado com sucesso.", "Donativo efetuado", MessageBoxButtons.OK);
+            }
+            else
+            {
+                this.Activate();
+            }
+
 
             String newFileContents = JsonConvert.SerializeObject(json, Formatting.Indented);
             File.WriteAllText(fileName, newFileContents);
@@ -62,7 +72,9 @@ namespace Formulario_correto
                 MessageBox.Show("Erro:" + ex.Message);
             }*/
             decimal total = json.donativos.Sum(x => Convert.ToDecimal(x.Valor));
-            MessageBox.Show("Total " + total);
+            MessageBox.Show("Total de donativos efetuados até ao momento " + total + " euros.", "Total de Donativos", MessageBoxButtons.OK);
+            //MessageBox.Show("Total: " + total);
+            Application.Exit();
 
         }
 
@@ -79,6 +91,70 @@ namespace Formulario_correto
         private void txtTelemovel_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            if (MessageBox.Show("Tem a certeza que pretende fechar a aplicação?", "Fechar Aplicação", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            {
+                MessageBox.Show("A aplicação foi fechada com sucesso.", "Aplicação Encerrada!", MessageBoxButtons.OK);
+                System.Windows.Forms.Application.Exit();
+            }
+            else
+            {
+                this.Activate();
+            }
+        }
+
+        private void txtTelemovel_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verifica que a tecla CTRL não está acionada ou qualquer caracter não numérico
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtCodigoPostal_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verifica que a tecla CTRL não está acionada ou qualquer caracter não numérico
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+
+        }
+
+        private void txtValor_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            // Verifica que a tecla CTRL não está acionada ou qualquer caracter não numérico
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Recebe apenas Alfabeto
+            e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back);
+        }
+
+        private void txtCidade_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtCidade_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Recebe apenas Alfabeto
+            e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back);
+        }
+
+        private void txtPais_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //Recebe apenas Alfabeto
+            e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back);
         }
     }
 }

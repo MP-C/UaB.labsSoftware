@@ -89,6 +89,7 @@
             this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // txtNome
             // 
@@ -96,6 +97,7 @@
             this.txtNome.Name = "txtNome";
             this.txtNome.Size = new System.Drawing.Size(267, 27);
             this.txtNome.TabIndex = 1;
+            this.txtNome.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtNome_KeyPress);
             // 
             // txtMorada
             // 
@@ -156,6 +158,7 @@
             this.txtTelemovel.Size = new System.Drawing.Size(125, 27);
             this.txtTelemovel.TabIndex = 6;
             this.txtTelemovel.TextChanged += new System.EventHandler(this.txtTelemovel_TextChanged);
+            this.txtTelemovel.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtTelemovel_KeyPress);
             // 
             // txtValor
             // 
@@ -164,6 +167,7 @@
             this.txtValor.Size = new System.Drawing.Size(125, 27);
             this.txtValor.TabIndex = 7;
             this.txtValor.TextChanged += new System.EventHandler(this.txtValor_TextChanged);
+            this.txtValor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtValor_KeyPress);
             // 
             // comboAnonimato
             // 
@@ -226,6 +230,7 @@
             this.txtCodigoPostal.Name = "txtCodigoPostal";
             this.txtCodigoPostal.Size = new System.Drawing.Size(125, 27);
             this.txtCodigoPostal.TabIndex = 3;
+            this.txtCodigoPostal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCodigoPostal_KeyPress);
             // 
             // txtCidade
             // 
@@ -233,6 +238,8 @@
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(125, 27);
             this.txtCidade.TabIndex = 4;
+            this.txtCidade.TextChanged += new System.EventHandler(this.txtCidade_TextChanged);
+            this.txtCidade.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtCidade_KeyPress);
             // 
             // txtPais
             // 
@@ -240,6 +247,7 @@
             this.txtPais.Name = "txtPais";
             this.txtPais.Size = new System.Drawing.Size(125, 27);
             this.txtPais.TabIndex = 5;
+            this.txtPais.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtPais_KeyPress);
             // 
             // Formulario
             // 
