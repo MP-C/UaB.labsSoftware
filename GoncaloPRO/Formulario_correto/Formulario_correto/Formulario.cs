@@ -95,7 +95,7 @@ namespace Formulario_correto
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Tem a certeza que pretende fechar a aplicação?", "Fechar Aplicação", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("Tem a certeza que pretende abortar o seu donativo?", "Abortar Donativo", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 MessageBox.Show("A aplicação foi fechada com sucesso.", "Aplicação Encerrada!", MessageBoxButtons.OK);
                 System.Windows.Forms.Application.Exit();
@@ -118,7 +118,7 @@ namespace Formulario_correto
         private void txtCodigoPostal_KeyPress(object sender, KeyPressEventArgs e)
         {
             // Verifica que a tecla CTRL não está acionada ou qualquer caracter não numérico
-            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '-'))
             {
                 e.Handled = true;
             }
@@ -137,7 +137,7 @@ namespace Formulario_correto
         private void txtNome_KeyPress(object sender, KeyPressEventArgs e)
         {
             //Recebe apenas Alfabeto
-            e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back);
+            e.Handled = !(char.IsLetter(e.KeyChar) || e.KeyChar == (char)Keys.Back || e.KeyChar == ' ');
         }
 
         private void txtCidade_TextChanged(object sender, EventArgs e)
