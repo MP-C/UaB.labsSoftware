@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xKZkiuRpsduCp47L1chlyE7sBBiUMXVyHBFu7DEdd0eYOkKPxhmeqqbSZAk9MSDmuwle2LlYkcitFqAWDxRlDA==",
+  "dgSpecHash": "z4SbKK+d9vc+DnDS4mOe1+UIEPBUeAy4SKxAyRERQ/Bt7Wt6rmmGGpUV8/1PVZWZQU0DiQvtKCZb8UkEqFWzKQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\gonca\\Desktop\\Desenvolvimento de Software\\ProjetoDonativos\\DonativosJASON\\DonativosJASON.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\gonca\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.15\\microsoft.netcore.app.host.win-x64.5.0.15.nupkg.sha512",
-    "C:\\Users\\gonca\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\gonca\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
-    "C:\\Users\\gonca\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
