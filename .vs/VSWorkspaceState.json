@@ -2,11 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\DonativosJASON",
-    "\\GoncaloPRO",
-    "\\GoncaloPRO\\Formulario_correto",
-    "\\GoncaloPRO\\Formulario_correto\\Formulario_correto",
-    "\\img"
+    "\\DonativosWindowsForms"
   ],
-  "SelectedNode": "\\DonativosJASON\\Controller.cs",
+  "SelectedNode": "\\DonativosWindowsForms",
   "PreviewInSolutionExplorer": false
 }
