@@ -23,7 +23,7 @@ namespace DonativosJASON
 
         public void ApresentarBoasVindas()
             /*  [J]
-             *  Esta função devia ter só texto e no controller é que se fazia o input,
+             *  Esta função devia ter só texto no view e no controller é que se fazia o input,
              *  algo por exemplo:
              *  -- (no controller) --
              *  view.ApresentarBoasVindas();
@@ -98,11 +98,9 @@ namespace DonativosJASON
           
         }
 
-        /*[J]
-        *public void ApresentarBotaoAguarde()
-        *{
-        *    Console.WriteLine("Aguarde");
-        *}
-        */
+        public void DonativoProcessadoSucesso()
+        {
+            Console.WriteLine("Processado com sucesso");
+        }
     }
 }

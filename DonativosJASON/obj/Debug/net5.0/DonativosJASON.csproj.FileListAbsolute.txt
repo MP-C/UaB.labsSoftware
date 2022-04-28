@@ -30,3 +30,21 @@ C:\Users\gonca\Desktop\Desenvolvimento de Software\ProjetoDonativos\DonativosJAS
 C:\Users\gonca\Desktop\Desenvolvimento de Software\ProjetoDonativos\DonativosJASON\obj\Debug\net5.0\DonativosJASON.pdb
 C:\Users\gonca\Desktop\Desenvolvimento de Software\ProjetoDonativos\DonativosJASON\obj\Debug\net5.0\DonativosJASON.genruntimeconfig.cache
 C:\Users\gonca\Desktop\Desenvolvimento de Software\ProjetoDonativos\DonativosJASON\obj\Debug\net5.0\ref\DonativosJASON.dll
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.dll
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\refint\DonativosJASON.dll
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.pdb
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.csproj.AssemblyReference.cache
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.AssemblyInfoInputs.cache
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.AssemblyInfo.cs
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.csproj.CoreCompileInputs.cache
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\DonativosJASON.exe
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\DonativosJASON.deps.json
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\DonativosJASON.runtimeconfig.json
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\DonativosJASON.runtimeconfig.dev.json
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\DonativosJASON.dll
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\DonativosJASON.pdb
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.genruntimeconfig.cache
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\ref\DonativosJASON.dll
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosJASON\obj\Debug\net5.0\DonativosJASON.csproj.CopyComplete
