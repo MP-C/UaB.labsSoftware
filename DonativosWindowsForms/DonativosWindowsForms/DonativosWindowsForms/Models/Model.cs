@@ -10,6 +10,7 @@ namespace DonativosWindowsForms.Models
     public class Model
     {
         private ViewDonativos view;
+        private List<ModelDonativo> donativos = new List<ModelDonativo>();
 
         public Model(ViewDonativos v)
         {
