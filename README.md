@@ -27,7 +27,8 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 5/5/2022: <continuar e validar o programa final>
 
   
-******//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//**********
+******//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--// **********
+
 ##Diagrama
 [Aplicação SimProgramming Donativos-Equipa6.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8587255/Aplicacao.SimProgramming.Donativos-Equipa6.pdf)
 
