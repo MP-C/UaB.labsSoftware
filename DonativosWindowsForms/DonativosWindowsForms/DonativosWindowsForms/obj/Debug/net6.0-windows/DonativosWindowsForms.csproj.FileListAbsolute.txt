@@ -1,0 +1,42 @@
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.exe
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.deps.json
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.runtimeconfig.json
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.dll
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\ref\DonativosWindowsForms.dll
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.pdb
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.AssemblyReference.cache
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.GenerateResource.cache
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.AssemblyInfoInputs.cache
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.AssemblyInfo.cs
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.dll
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\ref\DonativosWindowsForms.dll
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.pdb
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.genruntimeconfig.cache
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.FormularioDonativo.resources
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.RespostaFinal.resources
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.CopyComplete
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.MenuInicial.resources
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.AssemblyReference.cache
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.FormularioDonativo.resources
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.MenuInicial.resources
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.RespostaFinal.resources
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.GenerateResource.cache
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.AssemblyInfoInputs.cache
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.AssemblyInfo.cs
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.CoreCompileInputs.cache
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.dll
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.pdb
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.exe
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.deps.json
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.runtimeconfig.json
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.dll
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\DonativosWindowsForms.pdb
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\bin\Debug\net6.0-windows\Newtonsoft.Json.dll
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.csproj.CopyComplete
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\refint\DonativosWindowsForms.dll
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.genruntimeconfig.cache
+C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\ref\DonativosWindowsForms.dll
