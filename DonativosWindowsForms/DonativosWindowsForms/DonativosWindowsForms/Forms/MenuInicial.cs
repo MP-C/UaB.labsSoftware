@@ -16,5 +16,10 @@ namespace DonativosWindowsForms.Forms
         {
             InitializeComponent();
         }
+
+        private void btnEfetuarDonativo_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
