@@ -1,12 +1,15 @@
-﻿namespace DonativosWindowsForms.Forms
+﻿using DonativosWindowsForms.Views;
+
+namespace DonativosWindowsForms.Forms
 {
-    partial class FormularioDonativo
+    public partial class FormularioDonativo
     {
+        private ViewFormulario view;
+        public ViewFormulario View { get => view; set => view = value; }
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>

@@ -1,7 +1,11 @@
-﻿namespace DonativosWindowsForms.Forms
+﻿using DonativosWindowsForms.Views;
+
+namespace DonativosWindowsForms.Forms
 {
     partial class MenuInicial
     {
+        private ViewMenuIniciar view;
+        public ViewMenuIniciar View { get => view; set => view = value; }
         /// <summary>
         /// Required designer variable.
         /// </summary>
