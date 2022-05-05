@@ -48,23 +48,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\inesi\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\gonca\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\inesi\\Source\\Repos\\UaB.labsSoftware\\GoncaloPRO\\Formulario_correto\\Formulario_correto\\Formulario_correto.csproj",
+      "projectUniqueName": "C:\\Users\\gonca\\Desktop\\Desenvolvimento de Software\\Donativos\\GoncaloPRO\\Formulario_correto\\Formulario_correto\\Formulario_correto.csproj",
       "projectName": "Formulario_correto",
-      "projectPath": "C:\\Users\\inesi\\Source\\Repos\\UaB.labsSoftware\\GoncaloPRO\\Formulario_correto\\Formulario_correto\\Formulario_correto.csproj",
-      "packagesPath": "C:\\Users\\inesi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\inesi\\Source\\Repos\\UaB.labsSoftware\\GoncaloPRO\\Formulario_correto\\Formulario_correto\\obj\\",
+      "projectPath": "C:\\Users\\gonca\\Desktop\\Desenvolvimento de Software\\Donativos\\GoncaloPRO\\Formulario_correto\\Formulario_correto\\Formulario_correto.csproj",
+      "packagesPath": "C:\\Users\\gonca\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gonca\\Desktop\\Desenvolvimento de Software\\Donativos\\GoncaloPRO\\Formulario_correto\\Formulario_correto\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\inesi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\gonca\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -113,7 +114,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.104\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }
