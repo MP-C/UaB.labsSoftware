@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "dadNTyu9PbvHIZHy82zZlbErSvnkxJRPQ5yd1VxPiOm6T3q+Hzp0WY2qw5ZxQsD53aG8cFiN6Rtu+CqbqnB12A==",
+  "dgSpecHash": "zoFRhU20/FYmhXlmS9mnrgceLrV/FwlTKf95X6O6qsocicfSPY7+WnjGgo+iOWuvcQKRVqnoxFhTqLPGEaEVhA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\gonca\\Desktop\\Desenvolvimento de Software\\Donativos\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj",
+  "projectFilePath": "C:\\Users\\inesi\\source\\repos\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\gonca\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\inesi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
   ],
   "logs": []
 }
