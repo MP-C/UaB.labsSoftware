@@ -24,5 +24,11 @@ namespace DonativosWindowsForms.Forms
             viewFormulario = new ViewFormulario();
             viewFormulario.ActivarInterface();
         }
+
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            ViewMenuIniciar viewMenuIniciar = new ViewMenuIniciar();
+            viewMenuIniciar.Sair();
+        }
     }
 }

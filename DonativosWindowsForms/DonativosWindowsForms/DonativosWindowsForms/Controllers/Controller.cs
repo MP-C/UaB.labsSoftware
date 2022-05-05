@@ -15,17 +15,29 @@ namespace DonativosWindowsForms.Controllers
     {
         Model model;
         ViewDonativos view;
+        ViewFormulario viewFormulario;
+        ViewMenuIniciar menuIniciar;    
 
         public Controller()
         {
             view = new ViewDonativos(model);
             model = new Model(view);
+            viewFormulario = new ViewFormulario();
+            menuIniciar = new ViewMenuIniciar();
+
+            viewFormulario.UtilizadorClicouEmSair += UtilizadorClicouEmSair;
+            menuIniciar.UtilizadorClicouEmSair += UtilizadorClicouEmSair;
         }
 
         public void IniciarPrograma()
         {
             ApplicationConfiguration.Initialize();
             Application.Run(new MenuInicial());
+        }
+
+        public void UtilizadorClicouEmSair()
+        {
+            viewFormulario.Encerrar();
         }
     }
   

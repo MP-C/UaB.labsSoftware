@@ -14,5 +14,6 @@ namespace DonativosWindowsForms.Views
         {
             model = m;
         }
+
     }
 }

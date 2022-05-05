@@ -2,10 +2,16 @@
 
 namespace DonativosWindowsForms.Forms
 {
-    partial class MenuInicial
+    public partial class MenuInicial
     {
         private ViewMenuIniciar view;
         public ViewMenuIniciar View { get => view; set => view = value; }
+
+        public void Encerrar()
+        {
+            Application.Exit();
+        }
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -45,6 +51,7 @@ namespace DonativosWindowsForms.Forms
             this.btnFechar.TabIndex = 7;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // btnEfetuarDonativo
             // 

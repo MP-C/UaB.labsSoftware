@@ -5,7 +5,13 @@ namespace DonativosWindowsForms.Forms
     public partial class FormularioDonativo
     {
         private ViewFormulario view;
-        public ViewFormulario View { get => view; set => view = value; }
+        public ViewFormulario ViewDonativo { get => view; set => view = value; }
+
+        public void Encerrar()
+        {
+            Application.Exit();
+        }
+
         /// <summary>
         /// Required designer variable.
         /// </summary>
@@ -131,6 +137,7 @@ namespace DonativosWindowsForms.Forms
             this.btnFechar.TabIndex = 3;
             this.btnFechar.Text = "Fechar";
             this.btnFechar.UseVisualStyleBackColor = true;
+            this.btnFechar.Click += new System.EventHandler(this.btnFechar_Click);
             // 
             // txtMensagem
             // 

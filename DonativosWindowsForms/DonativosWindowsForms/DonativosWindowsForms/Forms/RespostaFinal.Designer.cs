@@ -1,11 +1,16 @@
 ﻿namespace DonativosWindowsForms.Forms
 {
-    partial class RespostaFinal
+    public partial class RespostaFinal
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+
+        public void Encerrar()
+        {
+            Application.Exit();
+        }
 
         /// <summary>
         /// Clean up any resources being used.
