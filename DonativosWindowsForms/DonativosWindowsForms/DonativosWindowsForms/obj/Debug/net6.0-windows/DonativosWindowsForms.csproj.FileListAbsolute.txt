@@ -40,3 +40,4 @@ C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsFor
 C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\refint\DonativosWindowsForms.dll
 C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.genruntimeconfig.cache
 C:\Users\gonca\Desktop\Desenvolvimento de Software\Donativos\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\ref\DonativosWindowsForms.dll
+C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Properties.Resources.resources

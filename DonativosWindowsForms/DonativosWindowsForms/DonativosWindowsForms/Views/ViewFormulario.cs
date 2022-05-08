@@ -1,4 +1,5 @@
 ﻿using DonativosWindowsForms.Forms;
+using DonativosWindowsForms.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,6 +12,8 @@ namespace DonativosWindowsForms.Views
         private FormularioDonativo formularioDonativo;
 
         public event Action UtilizadorClicouEmSair;
+
+        private Model model;
 
         public void ActivarInterface()
         {
@@ -27,6 +30,8 @@ namespace DonativosWindowsForms.Views
             }
             
         }
+
+        //alterar o processar donativo da viewDonativo para aqui!!!
 
         public void Encerrar()
         {

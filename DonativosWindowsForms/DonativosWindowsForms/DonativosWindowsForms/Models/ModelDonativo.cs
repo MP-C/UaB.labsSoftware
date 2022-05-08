@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace DonativosWindowsForms.Models
 {
-    internal class ModelDonativo
+    public class ModelDonativo
     {
         public string Nome { get; set; }
         public string Morada { get; set; }
@@ -15,8 +15,7 @@ namespace DonativosWindowsForms.Models
         public string Cidade { get; set; }
         public string Pais { get; set; }
         public string Telemovel { get; set; }
-        public float Valor { get; set; }
-        public bool Anonimato { get; set; }
+        public decimal Montante { get; set; }
         public string Mensagem { get; set; }
 
         public string JsonSerializar(ModelDonativo donativo)

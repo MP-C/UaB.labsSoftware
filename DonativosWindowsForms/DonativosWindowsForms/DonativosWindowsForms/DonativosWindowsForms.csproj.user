@@ -12,9 +12,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="Forms\FormularioDonativo.resx">
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Update="Forms\MenuInicial.resx">
       <SubType>Designer</SubType>
     </EmbeddedResource>
