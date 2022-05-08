@@ -33,6 +33,13 @@ namespace DonativosWindowsForms.Views
 
         //alterar o processar donativo da viewDonativo para aqui!!!
 
+        public void ProcessarDonativo(string nome, string morada, string codigopostal, string cidade, string pais, string telemovel, decimal montante, string mensagem)
+        {
+            Model model = new Model(this);
+            model.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+        }
+
+
         public void Encerrar()
         {
             formularioDonativo.Encerrar();

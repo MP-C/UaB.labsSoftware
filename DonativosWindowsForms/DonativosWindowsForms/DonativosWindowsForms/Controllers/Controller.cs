@@ -21,8 +21,8 @@ namespace DonativosWindowsForms.Controllers
         public Controller()
         {
             view = new ViewDonativos(model);
-            model = new Model(view);
             viewFormulario = new ViewFormulario();
+            model = new Model(viewFormulario);
             menuIniciar = new ViewMenuIniciar();
 
             viewFormulario.UtilizadorClicouEmSair += UtilizadorClicouEmSair;

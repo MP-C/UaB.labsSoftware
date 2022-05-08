@@ -1,3 +1,44 @@
 {
-  
+  "donativos": [
+    {
+      "Nome": "teste",
+      "Morada": "asd",
+      "CodigoPostal": "2",
+      "Cidade": "asd",
+      "Pais": "asd",
+      "Telemovel": "asd",
+      "Montante": 2.0,
+      "Mensagem": "as"
+    },
+    {
+      "Nome": "gdfghf",
+      "Morada": "hjghj",
+      "CodigoPostal": "ghj",
+      "Cidade": "g",
+      "Pais": "ghj",
+      "Telemovel": "123",
+      "Montante": 2.0,
+      "Mensagem": "ghf"
+    },
+    {
+      "Nome": "Cenas",
+      "Morada": "21",
+      "CodigoPostal": "123",
+      "Cidade": "sfd",
+      "Pais": "dfg",
+      "Telemovel": "g",
+      "Montante": 20000000.0,
+      "Mensagem": "a"
+    },
+    {
+      "Nome": "",
+      "Morada": "",
+      "CodigoPostal": "",
+      "Cidade": "",
+      "Pais": "",
+      "Telemovel": "",
+      "Montante": 2.0,
+      "Mensagem": ""
+    }
+  ]
 }

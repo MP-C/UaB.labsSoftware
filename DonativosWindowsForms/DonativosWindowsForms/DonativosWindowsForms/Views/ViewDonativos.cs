@@ -19,19 +19,21 @@ namespace DonativosWindowsForms.Views
             model = m;
         }
 
-        public void ActivarInterface()
+        public void ActivarInterface(decimal totais, decimal montante)
         {
             respostaFinal = new RespostaFinal();
+            respostaFinal.AtualizarTotais(totais);
+            respostaFinal.MostrarMontante(montante);
             respostaFinal.Show();
         }
 
         //este metodo tem que ser alterado para a viewFormulario
 
-        public void ProcessarDonativo(string nome, string morada, string codigopostal, string cidade, string pais, string telemovel, decimal montante, string mensagem)
-        {
-            Model model = new Model(this);
-            model.ProcessarDonativo(nome,morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
-        }
+        //public void ProcessarDonativo(string nome, string morada, string codigopostal, string cidade, string pais, string telemovel, decimal montante, string mensagem)
+        //{
+        //   Model model = new Model(this);
+        //    model.ProcessarDonativo(nome,morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+        //}
 
     }
 }

@@ -32,7 +32,7 @@ namespace DonativosWindowsForms.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ViewDonativos viewDonativo = new ViewDonativos(model);
+            ViewFormulario viewFormulario = new ViewFormulario();
 
             string nome = textBoxNome.Text;
             string morada = textBoxMorada.Text;
@@ -43,7 +43,7 @@ namespace DonativosWindowsForms.Forms
             decimal montante = Convert.ToDecimal(textBoxMontante.Text);
             string mensagem = textBoxMensagem.Text;
 
-            viewDonativo.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+            viewFormulario.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
         }
     }
 }

@@ -11,10 +11,10 @@ namespace DonativosWindowsForms.Models
 {
     public class Model
     {
-        private ViewDonativos view;
+        private ViewFormulario view;
         private string filePath = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, "Database\\Database.json"); 
 
-        public Model(ViewDonativos v)
+        public Model(ViewFormulario v)
         {
             view = v;
         }
@@ -31,23 +31,27 @@ namespace DonativosWindowsForms.Models
             donativo.Montante = montante;
             donativo.Mensagem = mensagem;
 
-            string text = JsonConvert.SerializeObject(donativo);
 
 
-            string fileName = File.ReadAllText(filePath);
-            ListDonativos json = JsonConvert.DeserializeObject<ListDonativos>(fileName);
+            var jsonData = File.ReadAllText(filePath);
+            ListDonativos json = JsonConvert.DeserializeObject<ListDonativos>(jsonData);
+
             json.donativos.Add(donativo);
 
+            jsonData = JsonConvert.SerializeObject(json, Formatting.Indented);
+            File.WriteAllText(filePath, jsonData);
+            
             ViewDonativos respostaFinal = new ViewDonativos(this);
-            respostaFinal.ActivarInterface();
+            respostaFinal.ActivarInterface(Totais(), donativo.Montante);
                 
           
         }
 
         public decimal Totais()
         {
-            //decimal total = donativos.Sum(x => x.Montante);
-            decimal total = 0;
+            var jsonData = File.ReadAllText(filePath);
+            ListDonativos json = JsonConvert.DeserializeObject<ListDonativos>(jsonData);
+            decimal total = json.donativos.Sum(x => x.Montante);
             return total;
         }
     }
