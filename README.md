@@ -36,3 +36,9 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 ##Diagram Windows Forms
 [Equipa6DonativosMVC-CurryGrace.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8587257/Equipa6DonativosMVC-CurryGrace.pdf)
 
+ ##Diagrama Window Forms Try/Catch
+[Equipa6DonativosMVC-Try_Catch_Throw.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8646755/Equipa6DonativosMVC-Try_Catch_Throw.pdf)
+  
+ ##Minuta de testes
+[MinutaPlanoTestesEquipa 6.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8646756/MinutaPlanoTestesEquipa.6.pdf)
+
