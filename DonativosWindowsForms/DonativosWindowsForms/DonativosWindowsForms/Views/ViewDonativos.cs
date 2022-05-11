@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DonativosWindowsForms.Forms;
 using DonativosWindowsForms.Models;
+using static DonativosWindowsForms.Models.Logger;
 
 namespace DonativosWindowsForms.Views
 {
@@ -26,14 +27,6 @@ namespace DonativosWindowsForms.Views
             respostaFinal.MostrarMontante(montante);
             respostaFinal.Show();
         }
-
-        //este metodo tem que ser alterado para a viewFormulario
-
-        //public void ProcessarDonativo(string nome, string morada, string codigopostal, string cidade, string pais, string telemovel, decimal montante, string mensagem)
-        //{
-        //   Model model = new Model(this);
-        //    model.ProcessarDonativo(nome,morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
-        //}
 
     }
 }

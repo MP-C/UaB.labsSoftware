@@ -12,15 +12,22 @@ namespace DonativosWindowsForms.Models
     public class Model
     {
         private ViewFormulario view;
-        private string filePath = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, "Database\\Database.json"); 
+        private Logger modelLog;
+        private string filePath = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName, "Database\\Database.json");
+
+        public delegate void NotificacaoLogAlterado();
+        public event NotificacaoLogAlterado NotificarLogAlterado;
 
         public Model(ViewFormulario v)
         {
             view = v;
+            modelLog = new Logger();
+            modelLog.NotificarLogAlterado += LancarNotificarLogAlterado;
         }
 
         public void ProcessarDonativo(string nome, string morada, string codigopostal, string cidade, string pais, string telemovel, decimal montante, string mensagem)
         {
+
             ModelDonativo donativo = new ModelDonativo();
             donativo.Nome = nome;
             donativo.Morada = morada;
@@ -30,8 +37,6 @@ namespace DonativosWindowsForms.Models
             donativo.Telemovel = telemovel;
             donativo.Montante = montante;
             donativo.Mensagem = mensagem;
-
-
 
             var jsonData = File.ReadAllText(filePath);
             ListDonativos json = JsonConvert.DeserializeObject<ListDonativos>(jsonData);
@@ -53,6 +58,11 @@ namespace DonativosWindowsForms.Models
             ListDonativos json = JsonConvert.DeserializeObject<ListDonativos>(jsonData);
             decimal total = json.donativos.Sum(x => x.Montante);
             return total;
+        }
+
+        private void LancarNotificarLogAlterado()
+        {
+            NotificarLogAlterado();
         }
     }
 }
