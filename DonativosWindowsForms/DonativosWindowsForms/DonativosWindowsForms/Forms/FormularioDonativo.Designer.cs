@@ -1,11 +1,22 @@
-﻿namespace DonativosWindowsForms.Forms
+﻿using DonativosWindowsForms.Views;
+
+namespace DonativosWindowsForms.Forms
 {
-    partial class FormularioDonativo
+    public partial class FormularioDonativo
     {
         /// <summary>
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
+
+        private ViewFormulario view;
+
+        public ViewFormulario ViewDonativo { get => view; set => view = value; }
+
+        public void Encerrar()
+        {
+            Application.Exit();
+        }
 
         /// <summary>
         /// Clean up any resources being used.
@@ -28,245 +39,201 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.txtPais = new System.Windows.Forms.TextBox();
-            this.txtCidade = new System.Windows.Forms.TextBox();
-            this.txtCodigoPostal = new System.Windows.Forms.TextBox();
-            this.labelPais = new System.Windows.Forms.Label();
-            this.labelCidade = new System.Windows.Forms.Label();
-            this.labelCodigoPostal = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.btnEfetuarDonativo = new System.Windows.Forms.Button();
-            this.btnFechar = new System.Windows.Forms.Button();
-            this.txtMensagem = new System.Windows.Forms.TextBox();
-            this.comboAnonimato = new System.Windows.Forms.ComboBox();
-            this.txtValor = new System.Windows.Forms.TextBox();
-            this.txtTelemovel = new System.Windows.Forms.TextBox();
-            this.labelMensagem = new System.Windows.Forms.Label();
-            this.labelEuros = new System.Windows.Forms.Label();
-            this.labelAnonimato = new System.Windows.Forms.Label();
-            this.labelValor = new System.Windows.Forms.Label();
-            this.labelTelemovel = new System.Windows.Forms.Label();
-            this.txtMorada = new System.Windows.Forms.TextBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.labelMorada = new System.Windows.Forms.Label();
-            this.labelNome = new System.Windows.Forms.Label();
-            this.panel1.SuspendLayout();
+            this.button1 = new System.Windows.Forms.Button();
+            this.Nome = new System.Windows.Forms.Label();
+            this.textBoxNome = new System.Windows.Forms.TextBox();
+            this.textBoxMorada = new System.Windows.Forms.TextBox();
+            this.Morada = new System.Windows.Forms.Label();
+            this.textBoxCodigoPostal = new System.Windows.Forms.TextBox();
+            this.CodigoPostal = new System.Windows.Forms.Label();
+            this.textBoxCidade = new System.Windows.Forms.TextBox();
+            this.Cidade = new System.Windows.Forms.Label();
+            this.textBoxPais = new System.Windows.Forms.TextBox();
+            this.Pais = new System.Windows.Forms.Label();
+            this.textBoxTelemovel = new System.Windows.Forms.TextBox();
+            this.Telemovel = new System.Windows.Forms.Label();
+            this.textBoxMontante = new System.Windows.Forms.TextBox();
+            this.Montante = new System.Windows.Forms.Label();
+            this.textBoxMensagem = new System.Windows.Forms.TextBox();
+            this.Mensagem = new System.Windows.Forms.Label();
+            this.Fechar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtPais
+            // button1
             // 
-            this.txtPais.Location = new System.Drawing.Point(39, 194);
-            this.txtPais.Name = "txtPais";
-            this.txtPais.Size = new System.Drawing.Size(125, 27);
-            this.txtPais.TabIndex = 25;
+            this.button1.Location = new System.Drawing.Point(683, 402);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Enviar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // txtCidade
+            // Nome
             // 
-            this.txtCidade.Location = new System.Drawing.Point(181, 141);
-            this.txtCidade.Name = "txtCidade";
-            this.txtCidade.Size = new System.Drawing.Size(125, 27);
-            this.txtCidade.TabIndex = 24;
+            this.Nome.AutoSize = true;
+            this.Nome.Location = new System.Drawing.Point(37, 33);
+            this.Nome.Name = "Nome";
+            this.Nome.Size = new System.Drawing.Size(50, 20);
+            this.Nome.TabIndex = 1;
+            this.Nome.Text = "Nome";
+            this.Nome.Click += new System.EventHandler(this.label1_Click);
             // 
-            // txtCodigoPostal
+            // textBoxNome
             // 
-            this.txtCodigoPostal.Location = new System.Drawing.Point(39, 141);
-            this.txtCodigoPostal.Name = "txtCodigoPostal";
-            this.txtCodigoPostal.Size = new System.Drawing.Size(125, 27);
-            this.txtCodigoPostal.TabIndex = 23;
+            this.textBoxNome.Location = new System.Drawing.Point(37, 56);
+            this.textBoxNome.Name = "textBoxNome";
+            this.textBoxNome.Size = new System.Drawing.Size(340, 27);
+            this.textBoxNome.TabIndex = 2;
             // 
-            // labelPais
+            // textBoxMorada
             // 
-            this.labelPais.AutoSize = true;
-            this.labelPais.Location = new System.Drawing.Point(39, 171);
-            this.labelPais.Name = "labelPais";
-            this.labelPais.Size = new System.Drawing.Size(34, 20);
-            this.labelPais.TabIndex = 38;
-            this.labelPais.Text = "País";
+            this.textBoxMorada.Location = new System.Drawing.Point(37, 128);
+            this.textBoxMorada.Name = "textBoxMorada";
+            this.textBoxMorada.Size = new System.Drawing.Size(340, 27);
+            this.textBoxMorada.TabIndex = 4;
             // 
-            // labelCidade
+            // Morada
             // 
-            this.labelCidade.AutoSize = true;
-            this.labelCidade.Location = new System.Drawing.Point(181, 118);
-            this.labelCidade.Name = "labelCidade";
-            this.labelCidade.Size = new System.Drawing.Size(56, 20);
-            this.labelCidade.TabIndex = 37;
-            this.labelCidade.Text = "Cidade";
+            this.Morada.AutoSize = true;
+            this.Morada.Location = new System.Drawing.Point(37, 103);
+            this.Morada.Name = "Morada";
+            this.Morada.Size = new System.Drawing.Size(61, 20);
+            this.Morada.TabIndex = 3;
+            this.Morada.Text = "Morada";
             // 
-            // labelCodigoPostal
+            // textBoxCodigoPostal
             // 
-            this.labelCodigoPostal.AutoSize = true;
-            this.labelCodigoPostal.Location = new System.Drawing.Point(39, 120);
-            this.labelCodigoPostal.Name = "labelCodigoPostal";
-            this.labelCodigoPostal.Size = new System.Drawing.Size(101, 20);
-            this.labelCodigoPostal.TabIndex = 36;
-            this.labelCodigoPostal.Text = "Código Postal";
+            this.textBoxCodigoPostal.Location = new System.Drawing.Point(37, 191);
+            this.textBoxCodigoPostal.Name = "textBoxCodigoPostal";
+            this.textBoxCodigoPostal.Size = new System.Drawing.Size(191, 27);
+            this.textBoxCodigoPostal.TabIndex = 6;
             // 
-            // panel1
+            // CodigoPostal
             // 
-            this.panel1.Controls.Add(this.btnEfetuarDonativo);
-            this.panel1.Controls.Add(this.btnFechar);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 451);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(349, 36);
-            this.panel1.TabIndex = 35;
+            this.CodigoPostal.AutoSize = true;
+            this.CodigoPostal.Location = new System.Drawing.Point(37, 168);
+            this.CodigoPostal.Name = "CodigoPostal";
+            this.CodigoPostal.Size = new System.Drawing.Size(101, 20);
+            this.CodigoPostal.TabIndex = 5;
+            this.CodigoPostal.Text = "Código Postal";
             // 
-            // btnEfetuarDonativo
+            // textBoxCidade
             // 
-            this.btnEfetuarDonativo.Location = new System.Drawing.Point(3, 3);
-            this.btnEfetuarDonativo.Name = "btnEfetuarDonativo";
-            this.btnEfetuarDonativo.Size = new System.Drawing.Size(94, 29);
-            this.btnEfetuarDonativo.TabIndex = 2;
-            this.btnEfetuarDonativo.Text = "Efetuar Donativo";
-            this.btnEfetuarDonativo.UseVisualStyleBackColor = true;
+            this.textBoxCidade.Location = new System.Drawing.Point(37, 266);
+            this.textBoxCidade.Name = "textBoxCidade";
+            this.textBoxCidade.Size = new System.Drawing.Size(191, 27);
+            this.textBoxCidade.TabIndex = 8;
             // 
-            // btnFechar
+            // Cidade
             // 
-            this.btnFechar.Location = new System.Drawing.Point(249, 3);
-            this.btnFechar.Name = "btnFechar";
-            this.btnFechar.Size = new System.Drawing.Size(94, 29);
-            this.btnFechar.TabIndex = 3;
-            this.btnFechar.Text = "Fechar";
-            this.btnFechar.UseVisualStyleBackColor = true;
+            this.Cidade.AutoSize = true;
+            this.Cidade.Location = new System.Drawing.Point(37, 243);
+            this.Cidade.Name = "Cidade";
+            this.Cidade.Size = new System.Drawing.Size(56, 20);
+            this.Cidade.TabIndex = 7;
+            this.Cidade.Text = "Cidade";
             // 
-            // txtMensagem
+            // textBoxPais
             // 
-            this.txtMensagem.Location = new System.Drawing.Point(39, 407);
-            this.txtMensagem.Name = "txtMensagem";
-            this.txtMensagem.Size = new System.Drawing.Size(267, 27);
-            this.txtMensagem.TabIndex = 32;
+            this.textBoxPais.Location = new System.Drawing.Point(453, 59);
+            this.textBoxPais.Name = "textBoxPais";
+            this.textBoxPais.Size = new System.Drawing.Size(324, 27);
+            this.textBoxPais.TabIndex = 10;
             // 
-            // comboAnonimato
+            // Pais
             // 
-            this.comboAnonimato.FormattingEnabled = true;
-            this.comboAnonimato.Items.AddRange(new object[] {
-            "Sim",
-            "Não"});
-            this.comboAnonimato.Location = new System.Drawing.Point(39, 353);
-            this.comboAnonimato.Name = "comboAnonimato";
-            this.comboAnonimato.Size = new System.Drawing.Size(125, 28);
-            this.comboAnonimato.TabIndex = 30;
+            this.Pais.AutoSize = true;
+            this.Pais.Location = new System.Drawing.Point(453, 36);
+            this.Pais.Name = "Pais";
+            this.Pais.Size = new System.Drawing.Size(34, 20);
+            this.Pais.TabIndex = 9;
+            this.Pais.Text = "País";
             // 
-            // txtValor
+            // textBoxTelemovel
             // 
-            this.txtValor.Location = new System.Drawing.Point(39, 300);
-            this.txtValor.Name = "txtValor";
-            this.txtValor.Size = new System.Drawing.Size(125, 27);
-            this.txtValor.TabIndex = 29;
+            this.textBoxTelemovel.Location = new System.Drawing.Point(453, 130);
+            this.textBoxTelemovel.Name = "textBoxTelemovel";
+            this.textBoxTelemovel.Size = new System.Drawing.Size(324, 27);
+            this.textBoxTelemovel.TabIndex = 12;
             // 
-            // txtTelemovel
+            // Telemovel
             // 
-            this.txtTelemovel.Location = new System.Drawing.Point(39, 247);
-            this.txtTelemovel.Name = "txtTelemovel";
-            this.txtTelemovel.Size = new System.Drawing.Size(125, 27);
-            this.txtTelemovel.TabIndex = 26;
+            this.Telemovel.AutoSize = true;
+            this.Telemovel.Location = new System.Drawing.Point(453, 107);
+            this.Telemovel.Name = "Telemovel";
+            this.Telemovel.Size = new System.Drawing.Size(77, 20);
+            this.Telemovel.TabIndex = 11;
+            this.Telemovel.Text = "Telemóvel";
             // 
-            // labelMensagem
+            // textBoxMontante
             // 
-            this.labelMensagem.AutoSize = true;
-            this.labelMensagem.Location = new System.Drawing.Point(39, 384);
-            this.labelMensagem.Name = "labelMensagem";
-            this.labelMensagem.Size = new System.Drawing.Size(82, 20);
-            this.labelMensagem.TabIndex = 34;
-            this.labelMensagem.Text = "Mensagem";
+            this.textBoxMontante.Location = new System.Drawing.Point(453, 203);
+            this.textBoxMontante.Name = "textBoxMontante";
+            this.textBoxMontante.Size = new System.Drawing.Size(324, 27);
+            this.textBoxMontante.TabIndex = 14;
             // 
-            // labelEuros
+            // Montante
             // 
-            this.labelEuros.AutoSize = true;
-            this.labelEuros.Location = new System.Drawing.Point(170, 303);
-            this.labelEuros.Name = "labelEuros";
-            this.labelEuros.Size = new System.Drawing.Size(45, 20);
-            this.labelEuros.TabIndex = 33;
-            this.labelEuros.Text = "Euros";
+            this.Montante.AutoSize = true;
+            this.Montante.Location = new System.Drawing.Point(453, 180);
+            this.Montante.Name = "Montante";
+            this.Montante.Size = new System.Drawing.Size(43, 20);
+            this.Montante.TabIndex = 13;
+            this.Montante.Text = "Valor";
             // 
-            // labelAnonimato
+            // textBoxMensagem
             // 
-            this.labelAnonimato.AutoSize = true;
-            this.labelAnonimato.Location = new System.Drawing.Point(39, 330);
-            this.labelAnonimato.Name = "labelAnonimato";
-            this.labelAnonimato.Size = new System.Drawing.Size(83, 20);
-            this.labelAnonimato.TabIndex = 31;
-            this.labelAnonimato.Text = "Anonimato";
+            this.textBoxMensagem.Location = new System.Drawing.Point(453, 278);
+            this.textBoxMensagem.Multiline = true;
+            this.textBoxMensagem.Name = "textBoxMensagem";
+            this.textBoxMensagem.Size = new System.Drawing.Size(324, 82);
+            this.textBoxMensagem.TabIndex = 16;
             // 
-            // labelValor
+            // Mensagem
             // 
-            this.labelValor.AutoSize = true;
-            this.labelValor.Location = new System.Drawing.Point(39, 277);
-            this.labelValor.Name = "labelValor";
-            this.labelValor.Size = new System.Drawing.Size(43, 20);
-            this.labelValor.TabIndex = 28;
-            this.labelValor.Text = "Valor";
+            this.Mensagem.AutoSize = true;
+            this.Mensagem.Location = new System.Drawing.Point(453, 255);
+            this.Mensagem.Name = "Mensagem";
+            this.Mensagem.Size = new System.Drawing.Size(82, 20);
+            this.Mensagem.TabIndex = 15;
+            this.Mensagem.Text = "Mensagem";
             // 
-            // labelTelemovel
+            // Fechar
             // 
-            this.labelTelemovel.AutoSize = true;
-            this.labelTelemovel.Location = new System.Drawing.Point(39, 224);
-            this.labelTelemovel.Name = "labelTelemovel";
-            this.labelTelemovel.Size = new System.Drawing.Size(77, 20);
-            this.labelTelemovel.TabIndex = 27;
-            this.labelTelemovel.Text = "Telemovel";
-            // 
-            // txtMorada
-            // 
-            this.txtMorada.Location = new System.Drawing.Point(39, 90);
-            this.txtMorada.Name = "txtMorada";
-            this.txtMorada.Size = new System.Drawing.Size(267, 27);
-            this.txtMorada.TabIndex = 22;
-            // 
-            // txtNome
-            // 
-            this.txtNome.Location = new System.Drawing.Point(39, 37);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(267, 27);
-            this.txtNome.TabIndex = 20;
-            // 
-            // labelMorada
-            // 
-            this.labelMorada.AutoSize = true;
-            this.labelMorada.Location = new System.Drawing.Point(39, 67);
-            this.labelMorada.Name = "labelMorada";
-            this.labelMorada.Size = new System.Drawing.Size(61, 20);
-            this.labelMorada.TabIndex = 21;
-            this.labelMorada.Text = "Morada";
-            // 
-            // labelNome
-            // 
-            this.labelNome.AutoSize = true;
-            this.labelNome.Location = new System.Drawing.Point(39, 14);
-            this.labelNome.Name = "labelNome";
-            this.labelNome.Size = new System.Drawing.Size(50, 20);
-            this.labelNome.TabIndex = 19;
-            this.labelNome.Text = "Nome";
+            this.Fechar.Location = new System.Drawing.Point(568, 400);
+            this.Fechar.Name = "Fechar";
+            this.Fechar.Size = new System.Drawing.Size(94, 29);
+            this.Fechar.TabIndex = 17;
+            this.Fechar.Text = "Fechar";
+            this.Fechar.UseVisualStyleBackColor = true;
             // 
             // FormularioDonativo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(349, 487);
-            this.Controls.Add(this.txtPais);
-            this.Controls.Add(this.txtCidade);
-            this.Controls.Add(this.txtCodigoPostal);
-            this.Controls.Add(this.labelPais);
-            this.Controls.Add(this.labelCidade);
-            this.Controls.Add(this.labelCodigoPostal);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.txtMensagem);
-            this.Controls.Add(this.comboAnonimato);
-            this.Controls.Add(this.txtValor);
-            this.Controls.Add(this.txtTelemovel);
-            this.Controls.Add(this.labelMensagem);
-            this.Controls.Add(this.labelEuros);
-            this.Controls.Add(this.labelAnonimato);
-            this.Controls.Add(this.labelValor);
-            this.Controls.Add(this.labelTelemovel);
-            this.Controls.Add(this.txtMorada);
-            this.Controls.Add(this.txtNome);
-            this.Controls.Add(this.labelMorada);
-            this.Controls.Add(this.labelNome);
+            this.ClientSize = new System.Drawing.Size(817, 450);
+            this.Controls.Add(this.Fechar);
+            this.Controls.Add(this.textBoxMensagem);
+            this.Controls.Add(this.Mensagem);
+            this.Controls.Add(this.textBoxMontante);
+            this.Controls.Add(this.Montante);
+            this.Controls.Add(this.textBoxTelemovel);
+            this.Controls.Add(this.Telemovel);
+            this.Controls.Add(this.textBoxPais);
+            this.Controls.Add(this.Pais);
+            this.Controls.Add(this.textBoxCidade);
+            this.Controls.Add(this.Cidade);
+            this.Controls.Add(this.textBoxCodigoPostal);
+            this.Controls.Add(this.CodigoPostal);
+            this.Controls.Add(this.textBoxMorada);
+            this.Controls.Add(this.Morada);
+            this.Controls.Add(this.textBoxNome);
+            this.Controls.Add(this.Nome);
+            this.Controls.Add(this.button1);
             this.Name = "FormularioDonativo";
             this.Text = "FormularioDonativo";
             this.Load += new System.EventHandler(this.FormularioDonativo_Load);
-            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -274,27 +241,23 @@
 
         #endregion
 
-        private TextBox txtPais;
-        private TextBox txtCidade;
-        private TextBox txtCodigoPostal;
-        private Label labelPais;
-        private Label labelCidade;
-        private Label labelCodigoPostal;
-        private Panel panel1;
-        private Button btnEfetuarDonativo;
-        private Button btnFechar;
-        private TextBox txtMensagem;
-        private ComboBox comboAnonimato;
-        private TextBox txtValor;
-        private TextBox txtTelemovel;
-        private Label labelMensagem;
-        private Label labelEuros;
-        private Label labelAnonimato;
-        private Label labelValor;
-        private Label labelTelemovel;
-        private TextBox txtMorada;
-        private TextBox txtNome;
-        private Label labelMorada;
-        private Label labelNome;
+        private Button button1;
+        private Label Nome;
+        private TextBox textBoxNome;
+        private TextBox textBoxMorada;
+        private Label Morada;
+        private TextBox textBoxCodigoPostal;
+        private Label CodigoPostal;
+        private TextBox textBoxCidade;
+        private Label Cidade;
+        private TextBox textBoxPais;
+        private Label Pais;
+        private TextBox textBoxTelemovel;
+        private Label Telemovel;
+        private TextBox textBoxMontante;
+        private Label Montante;
+        private TextBox textBoxMensagem;
+        private Label Mensagem;
+        private Button Fechar;
     }
 }

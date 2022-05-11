@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DonativosWindowsForms.Views;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,7 @@ namespace DonativosWindowsForms.Forms
 {
     public partial class MenuInicial : Form
     {
+        private ViewFormulario viewFormulario;
         public MenuInicial()
         {
             InitializeComponent();
@@ -19,7 +21,14 @@ namespace DonativosWindowsForms.Forms
 
         private void btnEfetuarDonativo_Click(object sender, EventArgs e)
         {
+            viewFormulario = new ViewFormulario();
+            viewFormulario.ActivarInterface();
+        }
 
+        private void btnFechar_Click(object sender, EventArgs e)
+        {
+            ViewMenuIniciar viewMenuIniciar = new ViewMenuIniciar();
+            viewMenuIniciar.Sair();
         }
     }
 }

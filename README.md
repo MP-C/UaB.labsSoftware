@@ -24,8 +24,13 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 
 **28/4/2022: retorno ao mode de funcionamento no GitHub, desenvolvimento do código respectivo e associado ao novo diagrama escolhido e adaptado segundo as normas do MVC final. Avançar no código 
 
-**5/5/2022: <continuar e validar o programa final>
+**5/5/2022: desenvolvimento da integração entre as 3 partes principais das funções entre Iniciar(), Formulario(), e ApresentarDonativos(). Realizar o novo diagrama (segundo a nova tentativa de detetar erros), a minuta de testes e testar as funcionalidades todas.
 
+**7/5/2022: validar janelas apresnetadas. Validar em equipa o diagrama try/catch.
+
+**8/5/2022: testar funcionalidades somas, e apresentar um total, criar uma base de dados estruturadas e adequada. Validar em equipa a minuta de testes.
+
+**11/5/2022: implementar try/catch <continuar e validar o programa final> 
   
 //--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
 
@@ -34,4 +39,10 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 
 ##Diagram Windows Forms
 [Equipa6DonativosMVC-CurryGrace.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8587257/Equipa6DonativosMVC-CurryGrace.pdf)
+
+ ##Diagrama Window Forms Try/Catch
+[Equipa6DonativosMVC-Try_Catch_Throw.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8646755/Equipa6DonativosMVC-Try_Catch_Throw.pdf)
+  
+ ##Minuta de testes
+[MinutaPlanoTestesEquipa 6.pdf](https://github.com/MP-C/UaB.labsSoftware/files/8646756/MinutaPlanoTestesEquipa.6.pdf)
 
