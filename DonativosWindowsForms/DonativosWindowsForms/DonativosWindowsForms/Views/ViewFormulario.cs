@@ -31,12 +31,31 @@ namespace DonativosWindowsForms.Views
             
         }
 
-        //alterar o processar donativo da viewDonativo para aqui!!!
-
         public void ProcessarDonativo(string nome, string morada, string codigopostal, string cidade, string pais, string telemovel, decimal montante, string mensagem)
         {
             Model model = new Model(this);
-            model.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+            try
+            {
+                model.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+            } 
+            catch
+            {
+                ViewLog viewLog = new ViewLog();
+                viewLog.ActivarInterface();
+                //falta registar erro
+            }
+           
+        }
+
+
+        public void NotificacaoDeLogAlterado()
+        {
+            /*
+            string texto = "";
+            List<ILogItem> itens = PrecisoDeLog();
+            foreach (ILogItem item in itens)
+                texto += item.Tipo + ": " + item.Mensagem + Environment.NewLine;
+            viewlog.AlterarLog(texto);*/
         }
 
 
@@ -44,6 +63,8 @@ namespace DonativosWindowsForms.Views
         {
             formularioDonativo.Encerrar();
         }
+
+
 
     }
 }

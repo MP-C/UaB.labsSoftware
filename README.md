@@ -26,7 +26,11 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 
 **5/5/2022: desenvolvimento da integração entre as 3 partes principais das funções entre Iniciar(), Formulario(), e ApresentarDonativos(). Realizar o novo diagrama (segundo a nova tentativa de detetar erros), a minuta de testes e testar as funcionalidades todas.
 
-**7/5/2022: <continuar e validar o programa final> 
+**7/5/2022: validar janelas apresnetadas. Validar em equipa o diagrama try/catch.
+
+**8/5/2022: testar funcionalidades somas, e apresentar um total, criar uma base de dados estruturadas e adequada. Validar em equipa a minuta de testes.
+
+**11/5/2022: implementar try/catch <continuar e validar o programa final> 
   
 //--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
 
