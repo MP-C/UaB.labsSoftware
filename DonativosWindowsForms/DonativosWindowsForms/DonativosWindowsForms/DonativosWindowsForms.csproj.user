@@ -4,6 +4,9 @@
     <Compile Update="Forms\FormularioDonativo.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Forms\FormularioLog.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Forms\MenuInicial.cs">
       <SubType>Form</SubType>
     </Compile>
