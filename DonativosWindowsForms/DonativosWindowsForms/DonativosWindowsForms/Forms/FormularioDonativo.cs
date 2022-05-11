@@ -32,18 +32,39 @@ namespace DonativosWindowsForms.Forms
 
         private void button1_Click(object sender, EventArgs e)
         {
-            ViewFormulario viewFormulario = new ViewFormulario();
+            try
+            {
+                ViewFormulario viewFormulario = new ViewFormulario();
 
-            string nome = textBoxNome.Text;
-            string morada = textBoxMorada.Text;
-            string codigopostal = textBoxCodigoPostal.Text;
-            string cidade = textBoxCidade.Text;
-            string pais = textBoxPais.Text;
-            string telemovel = textBoxTelemovel.Text;
-            decimal montante = Convert.ToDecimal(textBoxMontante.Text);
-            string mensagem = textBoxMensagem.Text;
+                string nome = textBoxNome.Text;
+                string morada = textBoxMorada.Text;
+                string codigopostal = textBoxCodigoPostal.Text;
+                string cidade = textBoxCidade.Text;
+                string pais = textBoxPais.Text;
+                string telemovel = textBoxTelemovel.Text;
+                decimal montante = Convert.ToDecimal(textBoxMontante.Text);
+                string mensagem = textBoxMensagem.Text;
 
-            viewFormulario.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+                viewFormulario.ProcessarDonativo(nome, morada, codigopostal, cidade, pais, telemovel, montante, mensagem);
+            }
+            // Nao esta a detetar a heranca, verificar
+            catch(ExceptionDonativos ex)
+            {
+                ViewLog viewLog = new ViewLog();
+                viewLog.ActivarInterface();
+
+                //Logger logger = new Logger();
+                //logger.RegistarErro("FormatException", "Impossível converter string para decimal.");
+            }
+            catch (Exception ex)
+            {
+                ViewLog viewLog = new ViewLog();
+                viewLog.ActivarInterface();
+
+                Logger logger = new Logger();
+                logger.RegistarErro("FormatException", "Impossível converter string para decimal.");
+            }
+
         }
     }
 }

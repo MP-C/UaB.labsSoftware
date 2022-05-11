@@ -27,6 +27,7 @@ namespace DonativosWindowsForms.Controllers
 
             viewFormulario.UtilizadorClicouEmSair += UtilizadorClicouEmSair;
             menuIniciar.UtilizadorClicouEmSair += UtilizadorClicouEmSair;
+            model.NotificarLogAlterado += viewFormulario.NotificacaoDeLogAlterado;
         }
 
         public void IniciarPrograma()
