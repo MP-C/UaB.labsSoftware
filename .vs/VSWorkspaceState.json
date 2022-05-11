@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\DonativosWindowsForms",
+    "\\DonativosWindowsForms\\DonativosWindowsForms"
   ],
-  "SelectedNode": "\\DonativosWindowsForms.sln",
+  "SelectedNode": "\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.sln",
   "PreviewInSolutionExplorer": false
 }
