@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jonid\\Source\\Repos\\MP-C\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj": {}
+    "C:\\Users\\capelam\\source\\repos\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jonid\\Source\\Repos\\MP-C\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj": {
+    "C:\\Users\\capelam\\source\\repos\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jonid\\Source\\Repos\\MP-C\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj",
+        "projectUniqueName": "C:\\Users\\capelam\\source\\repos\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj",
         "projectName": "DonativosWindowsForms",
-        "projectPath": "C:\\Users\\jonid\\Source\\Repos\\MP-C\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj",
-        "packagesPath": "C:\\Users\\jonid\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jonid\\Source\\Repos\\MP-C\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\obj\\",
+        "projectPath": "C:\\Users\\capelam\\source\\repos\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms.csproj",
+        "packagesPath": "C:\\Users\\capelam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\capelam\\source\\repos\\UaB.labsSoftware\\DonativosWindowsForms\\DonativosWindowsForms\\DonativosWindowsForms\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\jonid\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\capelam\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
