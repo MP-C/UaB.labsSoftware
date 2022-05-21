@@ -14,8 +14,11 @@ namespace DonativosWindowsForms.Forms
     public partial class MenuInicial : Form
     {
         private ViewFormulario viewFormulario;
+        public ViewMenuIniciar viewMenuIniciar { get => view; set => view = value; }
+
         public MenuInicial()
         {
+            ControlBox = false;
             InitializeComponent();
         }
 
@@ -27,7 +30,6 @@ namespace DonativosWindowsForms.Forms
 
         private void btnFechar_Click(object sender, EventArgs e)
         {
-            ViewMenuIniciar viewMenuIniciar = new ViewMenuIniciar();
             viewMenuIniciar.Sair();
         }
     }

@@ -13,12 +13,11 @@ namespace DonativosWindowsForms.Views
 
         public event Action UtilizadorClicouEmSair;
 
-
         public void ActivarInterface()
         {
             menuInicial = new MenuInicial();
             menuInicial.View = this;
-            menuInicial.Show();
+            menuInicial.ShowDialog();
         }
         public void Encerrar()
         {
