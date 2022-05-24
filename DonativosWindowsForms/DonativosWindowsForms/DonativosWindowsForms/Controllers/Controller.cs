@@ -38,8 +38,6 @@ namespace DonativosWindowsForms.Controllers
                 menuIniciar.ActivarInterface();
             } while (!sair);
             
-            /*ApplicationConfiguration.Initialize();
-            Application.Run(new MenuInicial());*/
         }
 
         public void UtilizadorClicouEmSair()
