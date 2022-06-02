@@ -38,9 +38,9 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 
 **21/5/2022: gestão de conflitos, fazer documento Análise de Dependências
 
-**24/5/2022: verificação de cada janela e correções para delegados e eventos
+**24/5/2022: implementar interface
   
-**25/5/2022: verificação de cada janela, marcação de datas e disponibilidades para a reunião de feedback
+**25/5/2022: verificação de cada janela, correções para delegados e eventos, marcação de datas e disponibilidades para a reunião de feedback
 
 **1/7/2022: <feedback prof>
 
