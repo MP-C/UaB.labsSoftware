@@ -16,7 +16,9 @@ namespace DonativosWindowsForms.Controllers
         Model model;
         ViewDonativos view;
         ViewFormulario viewFormulario;
-        ViewMenuIniciar menuIniciar;    
+        ViewMenuIniciar menuIniciar;
+
+        private bool sair;
 
         public Controller()
         {
@@ -25,20 +27,23 @@ namespace DonativosWindowsForms.Controllers
             model = new Model(viewFormulario);
             menuIniciar = new ViewMenuIniciar();
 
-            viewFormulario.UtilizadorClicouEmSair += UtilizadorClicouEmSair;
             menuIniciar.UtilizadorClicouEmSair += UtilizadorClicouEmSair;
             model.NotificarLogAlterado += viewFormulario.NotificacaoDeLogAlterado;
         }
 
         public void IniciarPrograma()
         {
-            ApplicationConfiguration.Initialize();
-            Application.Run(new MenuInicial());
+            do
+            {
+                menuIniciar.ActivarInterface();
+            } while (!sair);
+            
         }
 
         public void UtilizadorClicouEmSair()
         {
-            viewFormulario.Encerrar();
+            sair = true;
+            menuIniciar.Encerrar();
         }
     }
   

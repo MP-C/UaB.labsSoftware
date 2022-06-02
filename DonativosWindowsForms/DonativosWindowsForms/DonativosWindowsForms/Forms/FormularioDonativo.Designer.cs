@@ -56,12 +56,11 @@ namespace DonativosWindowsForms.Forms
             this.Montante = new System.Windows.Forms.Label();
             this.textBoxMensagem = new System.Windows.Forms.TextBox();
             this.Mensagem = new System.Windows.Forms.Label();
-            this.Fechar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(683, 402);
+            this.button1.Location = new System.Drawing.Point(683, 392);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(94, 29);
             this.button1.TabIndex = 0;
@@ -199,21 +198,11 @@ namespace DonativosWindowsForms.Forms
             this.Mensagem.TabIndex = 15;
             this.Mensagem.Text = "Mensagem";
             // 
-            // Fechar
-            // 
-            this.Fechar.Location = new System.Drawing.Point(568, 400);
-            this.Fechar.Name = "Fechar";
-            this.Fechar.Size = new System.Drawing.Size(94, 29);
-            this.Fechar.TabIndex = 17;
-            this.Fechar.Text = "Fechar";
-            this.Fechar.UseVisualStyleBackColor = true;
-            // 
             // FormularioDonativo
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(817, 450);
-            this.Controls.Add(this.Fechar);
             this.Controls.Add(this.textBoxMensagem);
             this.Controls.Add(this.Mensagem);
             this.Controls.Add(this.textBoxMontante);
@@ -258,6 +247,5 @@ namespace DonativosWindowsForms.Forms
         private Label Montante;
         private TextBox textBoxMensagem;
         private Label Mensagem;
-        private Button Fechar;
     }
 }

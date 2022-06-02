@@ -64,3 +64,4 @@ C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosWindowsForms\Donativo
 C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.genruntimeconfig.cache
 C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\ref\DonativosWindowsForms.dll
 C:\Users\inesi\source\repos\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.FormularioLog.resources
+C:\Users\jonid\Source\Repos\MP-C\UaB.labsSoftware\DonativosWindowsForms\DonativosWindowsForms\DonativosWindowsForms\obj\Debug\net6.0-windows\DonativosWindowsForms.Forms.FormularioLog.resources
