@@ -8,7 +8,7 @@ para tempos de trabalho, agendas, e contactos.
 **31/3/2022: reestruturação da equipa, distribuição de tarefas, e modos de funcionar. Partilha de conhecimentos e dificuldades associadas. 
 Defenição dos programas a instalar, e explicações gerais sobre metodoligias de funcionamento (google, Git e sua utilização, GitHub, sincronização de chaves SSH e repositório GitHub).
 
-**2/3/2022: validação do modelo MVC escolhido: prós e contras, dificuldades e mais-valias. Verificação das mesmas verssões e programas em cada computador.
+**2/3/2022: validação do modelo MVC escolhido: prós e contras, dificuldades e mais-valias. Verificação das mesmas versões e programas em cada computador.
 
 **6/4/2022: continuação da fase anterior e construção de um projeto comum com construção dos componentes e código associado aos componentes, com distribuição das tarefas de cada um, segundo as funções e responsabilidades individuais:
   - @Inês Oliveira (criar funções e funcionalidades) : faz iniciar programa, Preencherformulario; ProcessarDonativo e DonativoPronto; totais
