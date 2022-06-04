@@ -6,7 +6,7 @@ Registo de tarefas:
 para tempos de trabalho, agendas, e contactos.
 
 **31/3/2022: reestruturação da equipa, distribuição de tarefas, e modos de funcionar. Partilha de conhecimentos e dificuldades associadas. 
-Defenição dos programas a instalar, e explicações gerais sobre metodoligias de funcionamento (google, Git e sua utilização, GitHub, sincronização de chaves SSH e repositório GitHub).
+Definição dos programas a instalar, e explicações gerais sobre metodologias de funcionamento (google, Git e sua utilização, GitHub, sincronização de chaves SSH e repositório GitHub).
 
 **2/3/2022: validação do modelo MVC escolhido: prós e contras, dificuldades e mais-valias. Verificação das mesmas versões e programas em cada computador.
 
@@ -48,7 +48,7 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 
 **1/6/2022: avaliação do estado da aplicação, pontos positivos, negativos e a melhorar. Verificação de que tudo funciona de forma indicada, e que tudo corresponde aos critérios e pedidos de qualidade.
 
-**2/6/2022: reunião com o Prof Duarte Cota <feedback professor>
+**2/6/2022: reunião com o Professor Duarte Cota <feedback professor>
   
 **4/6/2022: correção e finalização do relatório, e envio do projeto final com video de apresentação.
 
