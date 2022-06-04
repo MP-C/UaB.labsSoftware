@@ -15,6 +15,7 @@ namespace DonativosWindowsForms.Models
             string Mensagem { get; }
         }
 
+
         internal class LogItem : ILogItem
         {
             private string item = "";
