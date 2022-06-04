@@ -20,7 +20,11 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 
 **12/4/2022: continuação e validação da matéria lecionada, explicações e partilha de conhecimentos, com discussão sobre "como associar e respeitar o diagrama" do novo modelo MVC ecolhido.
 
+**15/4/2022:  esclarecimento de dúvidas.
+
 **21/4/2022: validação do novo diagrama MVC adaptado para windows forms. Associação do projeto a um novo repositório bitbucket. Continuação da construção do programa. NOTA: Criar vários commits para cada função; comentar o código escrito para melhor compreensão.
+
+**24/4/2022: Esclarecimento de dúvidas, e continuação dos pontos anteriores, com correção de conflitos.
 
 **28/4/2022: retorno ao mode de funcionamento no GitHub, desenvolvimento do código respectivo e associado ao novo diagrama escolhido e adaptado segundo as normas do MVC final. Avançar no código 
 
