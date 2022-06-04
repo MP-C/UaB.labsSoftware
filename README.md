@@ -46,9 +46,12 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
   
 **25/5/2022: verificação de cada janela, correções para delegados e eventos, marcação de datas e disponibilidades para a reunião de feedback
 
-**1/7/2022: <feedback prof>
+**1/6/2022: avaliação do estado da aplicação, pontos positivos, negativos e a melhorar. Verificação de que tudo funciona de forma indicada, e que tudo corresponde aos critérios e pedidos de qualidade.
 
-<continuar e validar o programa final>
+**2/6/2022: reunião com o Prof Duarte Cota <feedback professor>
+  
+**4/6/2022: correção e finalização do relatório, e envio do projeto final com video de apresentação.
+
   
 //--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
 
