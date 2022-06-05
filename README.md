@@ -51,6 +51,7 @@ Abandono da estratégia inicialmente pensada, quanto ao uso do JIRA para dar con
 **2/6/2022: reunião com o Professor Duarte Cota <feedback professor>
   
 **4/6/2022: correção e finalização do relatório, e envio do projeto final com video de apresentação.
+
   
 //--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//--//
 
